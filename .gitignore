@@ -1,0 +1,10 @@
+# Ignore .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore folders starting with .terraform
+/.terraform/
+/.terraform.*
+
+# Ignore files or subfolders within .terraform folders
+/.terraform/*
